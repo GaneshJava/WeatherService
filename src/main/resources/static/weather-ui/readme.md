@@ -10,4 +10,4 @@ This web app has been developed using following technologies/api/libs
  - Google autocomplete 
  - openweathermap (http://openweathermap.org/api)
 
-To run the application, install dependencies defined in the package.json file then run the NPM START command. The application runs on http://localhost:8080/
+To run the application, install dependencies defined in the package.json file then run the NPM START command. The application runs on http://localhost:3000/
