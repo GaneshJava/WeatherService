@@ -1,6 +1,6 @@
 This is a very simple weather forecast system example developed using React and "Open weather API".
 
-![Sample screenshot](WeatherReport.png)
+![Sample screenshot](WeatherReport.PNG)
 
 This web app has been developed using following technologies/api/libs
  - NPM
