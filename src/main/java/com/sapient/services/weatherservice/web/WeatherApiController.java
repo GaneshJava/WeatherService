@@ -1,6 +1,7 @@
 package com.sapient.services.weatherservice.web;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +13,8 @@ import com.sapient.services.weatherservice.integration.ows.WeatherService;
 @RestController
 @RequestMapping("/api/weather")
 public class WeatherApiController {
-
+	
+	@Autowired
 	private final WeatherService weatherService;
 
 	public WeatherApiController(WeatherService weatherService) {
